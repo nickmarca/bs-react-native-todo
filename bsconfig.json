@@ -1,0 +1,23 @@
+{
+    "name": "todo",
+    "reason": {
+        "react-jsx": 3
+    },
+    "sources": {
+        "dir": "src",
+        "subdirs": true
+    },
+    "package-specs": [
+        {
+            "module": "commonjs",
+            "in-source": true
+        }
+    ],
+    "suffix": ".bs.js",
+    "namespace": true,
+    "bs-dependencies": [
+        "bs-react-native-monorepo/reason-react-native",
+        "reason-react"
+    ],
+    "refmt": 3
+}

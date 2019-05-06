@@ -1,0 +1,30 @@
+{
+  "name": "todo",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest",
+    "build": "bsb -make-world -clean-world",
+    "watch": "bsb -make-world -clean-world -w"
+  },
+  "dependencies": {
+    "bs-react-native-monorepo": "git+ssh://git@github.com/reasonml-community/bs-react-native.git",
+    "react": "16.8.3",
+    "react-native": "0.59.5",
+    "reason-react": "git+ssh://git@github.com/reasonml/reason-react.git",
+    "reason-react-compat": "^0.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/runtime": "^7.4.4",
+    "babel-jest": "^24.8.0",
+    "bs-platform": "^5.0.4",
+    "jest": "^24.8.0",
+    "metro-react-native-babel-preset": "^0.54.0",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
